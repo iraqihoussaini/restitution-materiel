@@ -1,0 +1,42 @@
+.text-center {
+  text-align: center;
+}
+
+.underline-underline {
+  text-decoration: underline;
+}
+
+body {
+  margin: 30px 5%;
+  min-width: 1000px;
+}
+
+.t1 {
+  border: 2px solid black;
+}
+.t2 td,
+.t2 th {
+  border: 1px solid orange;
+}
+
+li {
+  list-style-type: square;
+}
+
+.signature {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#fullName {
+  width: 350px;
+}
+table {
+  width: 100%;
+  input {
+    width: 98%;
+  }
+}

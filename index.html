@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="css/styles.css" />
+  <head>
+    <title>Restitution materiel</title>
+  </head>
+  <body>
+    <h1 class="text-center">
+      ATTESTATION D’USAGE ET DE RESTITUTION DU MATÉRIEL
+    </h1>
+    <p class="text-center">
+      IMPORTANT : Par la signature de ce document, vous confirmez la restitution
+      du matériel informatique qui vous a été fourni lors de votre arrivée chez
+      DELANE SI.
+    </p>
+
+    <p class="text-center underline-underline">
+      PARTIE À REMPLIR LORS DE LA REMISE DU MATÉRIEL
+    </p>
+
+    <fieldset>
+      <legend>Bénéficiaire:</legend>
+      <p>
+        DELANE SI confie à
+        <select name="civilite" id="civilite">
+          <option value="">--Veuillez sélectionner une valeur --</option>
+          <option value="m">Monsieur</option>
+          <option value="mde">Madame</option>
+        </select>
+        <input type="text" id="fullName" name="fullName" />
+      </p>
+      <div>
+        <input type="checkbox" id="contrat" name="contrat" checked />
+        <label for="contrat">pendant la durée de son contrat</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="interne" name="interne" />
+        <label for="interne">
+          pendant la durée de réalisation d’un projet interne</label
+        >
+      </div>
+    </fieldset>
+    <p>les équipements informatiques suivants :</p>
+
+    <br />
+    <table class="t1 t2">
+      <tr>
+        <th></th>
+        <th>Equipement</th>
+        <th>Modèle</th>
+        <th>Référence</th>
+        <th>Remarque(s)</th>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="op" name="op" /></td>
+        <td>Ordinateur portable</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="co" name="co" /></td>
+        <td>Chargeur d’ordinateur</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="so" name="so" /></td>
+        <td>Sacoche ordinateur</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="tel" name="tel" /></td>
+        <td>Téléphone</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="c-tel" name="c-tel" /></td>
+        <td>Chargeur de téléphone</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="sim" name="sim" /></td>
+        <td>SIM</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="bl" name="bl" /></td>
+        <td>Badge locaux</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="bp" name="bp" /></td>
+        <td>Badge parking</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="e" name="e" /></td>
+        <td>Ecran</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="ch" name="ch" /></td>
+        <td>Câble HDMI</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="s" name="s" /></td>
+        <td>Souris</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="c" name="c" /></td>
+        <td>Clavier</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="st" name="st" /></td>
+        <td>Station d’accueil</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="c" name="c" /></td>
+        <td>Casque</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="e" name="e" /></td>
+        <td>Ecouteur</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="others" name="others" /></td>
+        <td>Autres (merci de préciser)</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+    </table>
+
+    <p>Ce matériel demeure la propriété exclusive de l’Entreprise.</p>
+
+    <p>
+      Il est convenu que le salarié ne pourra utiliser ce matériel à d’autres
+      fins que des fins professionnelles, sans autorisation expresse et
+      préalable de l’Entreprise.
+    </p>
+
+    <p>
+      Pour information, en cas de non-restitution du matériel, les sommes
+      ci-dessous seront déduites de votre solde de tout compte.
+    </p>
+
+    <ul>
+      <li>Ordinateur portable : 1.500 €</li>
+      <li>Chargeur d’ordinateur : 50 €</li>
+      <li>Sacoche ordinateur : 50 €</li>
+      <li>Téléphone (remis à zéro / sans code) : 100 €</li>
+      <li>Chargeur de téléphone : 10 €</li>
+      <li>Badge locaux : 30 €</li>
+      <li>Badge parking Indigo : 30 € / Sous-sol locaux : 100 €</li>
+      <li>Ecran : 150 €</li>
+      <li>Câble HDMI : 10 €</li>
+      <li>Souris : 20 €</li>
+      <li>Clavier : 20 €</li>
+      <li>Station d’accueil : 150 €</li>
+      <li>Casque : 50 €</li>
+      <li>Ecouteurs : 10 €</li>
+    </ul>
+
+    <p>
+      Je m’engage à restituer l’intégralité du matériel informatique qui m’a été
+      confié à mon arrivée
+    </p>
+
+    <div>
+      <input type="checkbox" id="yes" name="yes" />
+      <label for="yes"> Oui</label>
+    </div>
+    <div class="signature">
+      <p>À Boulogne-Billancourt</p>
+      <p>Le : <input /></p>
+    </div>
+
+    <div class="signature">
+      <p>Signature de l’Entreprise</p>
+      <p>Signature de l’utilisateur</p>
+    </div>
+
+    <p class="text-center underline-underline">
+      PARTIE À REMPLIR LORS DE LA RESTITUTION DU MATÉRIEL
+    </p>
+
+    <p>
+      Je soussigné(e)
+      <select name="civilite" id="civilite">
+        <option value="">--Veuillez sélectionner une valeur --</option>
+        <option value="m">Monsieur</option>
+        <option value="mde">Madame</option>
+      </select>
+      <input id="fullName" /> certifie avoir remis les équipements informatiques
+      mis à ma disposition à mon arrivée chez DELANE SI.
+    </p>
+
+    <p>
+      En cas de non-restitution d’une partie du matériel, veuillez le préciser
+      ci-dessous :
+    </p>
+
+    <table class="t1 t2">
+      <tr>
+        <th></th>
+        <th>Equipement non remis</th>
+        <th>Remarque(s)</th>
+        <th>Somme(s) à reprendre sur le STC</th>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="op" name="op" /></td>
+        <td>Ordinateur portable</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="co" name="co" /></td>
+        <td>Chargeur d’ordinateur</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="so" name="so" /></td>
+        <td>Sacoche ordinateur</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="tel" name="tel" /></td>
+        <td>Téléphone</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="c-tel" name="c-tel" /></td>
+        <td>Chargeur de téléphone</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="sim" name="sim" /></td>
+        <td>SIM</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="bl" name="bl" /></td>
+        <td>Badge locaux</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="bp" name="bp" /></td>
+        <td>Badge parking</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="e" name="e" /></td>
+        <td>Ecran</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="ch" name="ch" /></td>
+        <td>Câble HDMI</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="s" name="s" /></td>
+        <td>Souris</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="c" name="c" /></td>
+        <td>Clavier</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="st" name="st" /></td>
+        <td>Station d’accueil</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="c" name="c" /></td>
+        <td>Casque</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="e" name="e" /></td>
+        <td>Ecouteur</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="others" name="others" /></td>
+        <td>Autres (merci de préciser)</td>
+        <td><input type="text" /></td>
+        <td><input type="text" /></td>
+      </tr>
+    </table>
+
+    <div class="signature">
+      <p>À Boulogne-Billancourt</p>
+      <p>Le : <input /></p>
+    </div>
+
+    <div class="signature">
+      <p>Signature de l’Entreprise</p>
+      <p>Signature de l’utilisateur</p>
+    </div>
+  </body>
+</html>
