@@ -1,20 +1,66 @@
 <!DOCTYPE html>
 <html>
-  <link rel="stylesheet" href="css/styles.css" />
+  <head>
+    <style>
+      .text-center {
+        text-align: center;
+      }
+
+      .underline-underline {
+        text-decoration: underline;
+      }
+
+      body {
+        margin: 30px 5%;
+        min-width: 1000px;
+      }
+
+      .t1 {
+        border: 2px solid black;
+      }
+      .t2 td,
+      .t2 th {
+        border: 1px solid orange;
+      }
+
+      li {
+        list-style-type: square;
+      }
+
+      .signature {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      #fullName {
+        width: 350px;
+      }
+      table {
+        width: 100%;
+        input {
+          width: 98%;
+        }
+      }
+    </style>
+  </head>
+
   <head>
     <title>Restitution materiel</title>
   </head>
-  <body>
-    <h1 class="text-center">
+  <body style="margin: 30px 5%; min-width: 1000px">
+    <h1 style="text-align: center">
       ATTESTATION D’USAGE ET DE RESTITUTION DU MATÉRIEL
     </h1>
-    <p class="text-center">
+    <p tyle="text-align: center;">
       IMPORTANT : Par la signature de ce document, vous confirmez la restitution
       du matériel informatique qui vous a été fourni lors de votre arrivée chez
       DELANE SI.
     </p>
 
-    <p class="text-center underline-underline">
+    <p style="text-align: center; text-decoration: underline">
       PARTIE À REMPLIR LORS DE LA REMISE DU MATÉRIEL
     </p>
 
@@ -44,7 +90,7 @@
     <p>les équipements informatiques suivants :</p>
 
     <br />
-    <table class="t1 t2">
+    <table style="border: 2px solid black" class="t1 t2">
       <tr>
         <th></th>
         <th>Equipement</th>
@@ -215,7 +261,7 @@
       <p>Signature de l’utilisateur</p>
     </div>
 
-    <p class="text-center underline-underline">
+    <p style="text-align: center; text-decoration: underline">
       PARTIE À REMPLIR LORS DE LA RESTITUTION DU MATÉRIEL
     </p>
 
